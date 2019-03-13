@@ -6,6 +6,8 @@
 
 ### Introduction
 
-This project trains a DQN agent to navigate in a square enviornment and collects yellow banana.
+This project trains a DQN agent to navigate in a large square enviornment and collects yellow bananas. 
 
 ![Trained Agent][image1]
+
+The envioenment contains yellow and blue bananas; during training the agent gets reward = +1 if succesfully collected a yellow banana and a reward = -1 if collected a blue banana.
