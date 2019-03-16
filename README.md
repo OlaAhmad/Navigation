@@ -14,9 +14,9 @@ The envioenment contains yellow and blue bananas; during training the agent gets
 
 ### Getting started
 
-Download the Navigation repository from the top-right button. You can also clone the repository and downloaded from a terminal in your workspace directory using the following command line:
+Download the Navigation repository from the top-right button. You can also clone the repository and downloaded from a terminal in your workspace directory and cd to the Navigation folder using the following command lines:
     
     git clone https://github.com/OlaAhmad/Navigation.git
-    
+    cd Navigation        
 
 ### 
