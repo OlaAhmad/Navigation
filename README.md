@@ -6,7 +6,7 @@
 
 ### Introduction
 
-This project trains a DQN agent to navigate in a large square enviornment and collects yellow bananas. 
+This project trains a DQN agent to navigate in a large square enviornment to collect yellow bananas while avoiding blue bananas. 
 
 ![Trained Agent][image1]
 
@@ -14,9 +14,23 @@ The envioenment contains yellow and blue bananas; during training the agent gets
 
 ### Getting started
 
-Download the Navigation repository from the top-right button. You can also clone the repository and downloaded from a terminal in your workspace directory and cd to the Navigation folder using the following command lines:
+Download the Navigation repository from the top-right button. You can also clone the repository and downloaded from a terminal in your workspace directory using the following command line:
     
     git clone https://github.com/OlaAhmad/Navigation.git
-    cd Navigation        
+        
+### Usage
 
-### 
+Go to the Navigation folder and open the Navigation notebook to train the DQN agent as follows:
+
+    cd Navigation
+    Jupyter notebook Navigation.ipynb
+    
+### Codes
+
+In this repository we adapted two python codes that used when running the notebook to train the dqn agent: 
+1. model.py: builds the Q-Network to model the action policy. 
+2. dqn_agent.py: interacts with Banana enviornement and learns the agent from it.
+
+### Resources
+
+* udacity/deep-reinforcement-learning
