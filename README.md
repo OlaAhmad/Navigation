@@ -12,6 +12,14 @@ This project trains a DQN agent to navigate in a large square enviornment to col
 
 The envioenment contains yellow and blue bananas; during training the agent gets reward = +1 if succesfully collected a yellow banana and a reward = -1 if collected a blue banana.
 
+The state space has 37 dimensions and contains the agent's velocity, along with ray-based perception of objects around the agent's forward direction. Given this information, the agent has to learn how to best select actions through an episodic task. 
+
+Four discrete actions are available:
+* 0: move forward
+* 1: move backward
+* 2: turn left
+* 3: turn right
+
 ### Getting started
 
 Download the Navigation repository from the top-right button. You can also clone the repository and downloaded from a terminal in your workspace directory using the following command line:
