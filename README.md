@@ -24,7 +24,8 @@ Go to the Navigation folder and open the Navigation notebook to train the DQN ag
 
     cd Navigation
     Jupyter notebook Navigation.ipynb
-    
+
+When runing the notebook, the agent will start training over a number of episodes; it will stop when the episodes get finished or if the average score gets bigger than 16. If so, the trained model will be saved in "model.pth" 
 ### Codes
 
 In this repository we adapted two python codes that used when running the notebook to train the dqn agent: 
